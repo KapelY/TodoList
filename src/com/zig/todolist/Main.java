@@ -33,7 +33,7 @@ public class Main extends Application {
     }
 
     @Override
-    public void init() throws Exception {
+    public void init(){
         try {
             TodoData.getInstance().loadTodoItems();
         } catch (IOException e) {
