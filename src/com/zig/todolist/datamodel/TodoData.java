@@ -2,6 +2,8 @@ package com.zig.todolist.datamodel;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,6 +14,7 @@ import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Iterator;
+import java.util.Optional;
 
 public class TodoData {
     private static TodoData instance = new TodoData();
@@ -77,5 +80,9 @@ public class TodoData {
         } finally {
             bw.close();
         }
+    }
+
+    public void deleteTodoItem(TodoItem item) {
+        todoItems.remove(item);
     }
 }
