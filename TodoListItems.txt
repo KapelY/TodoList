@@ -5,3 +5,5 @@ Pick up dry cleaning	THE CLOTHES SHOULD BE READY BY WEDNESDAY	20-04-2016
 adsf	adsf	07-03-2018
 new item	do it	08-03-2018
 long item 2	lala	09-03-2018
+Early January Task	TodoItem	02-01-2018
+asdf	asdf	20-03-2018
